@@ -1,7 +1,7 @@
 // VARIABLES
 
 
-let miVariable = 24;                     //Se asigna valor a let 
+let miVariable = 24;                     //Se asigna valor a let , let obliga a que si se usa dentro de una funcion el valor de esa varible solo va a servir dentro de esa funcion y no se mezcle con otros.
    
 
 //console.log("mi edad es " + miVariable)         // muestra 24
