@@ -74,11 +74,26 @@ const miConstante = 3;                  // const varibale que no cambia su valor
 
 
 
-//Ej #2
- function saludar(nombre, edad){                                // Se pueden agreagr varios argumentos a una funcion
-    console.log('Hola, mi nombre es: '+ nombre)             // Se muestra 'Hola, mi nombre es: Frank y miu edad es 19'
-    console.log('y mi edad es: '+ edad) 
- }
+// //Ej #2
+//  function saludar(nombre, edad){                                // Se pueden agreagr varios argumentos a una funcion
+//     console.log('Hola, mi nombre es: '+ nombre)             // Se muestra 'Hola, mi nombre es: Frank y miu edad es 19'
+//     console.log('y mi edad es: '+ edad) 
+//  }
 
 
- saludar('Frank',19);                      // Al invocar la funcion se agregea los valores 'Frank' y 19 al argumento 'nombre'y 'edad' de la funcion 'saludar'
+//  saludar('Frank',19);                      // Al invocar la funcion se agregea los valores 'Frank' y 19 al argumento 'nombre'y 'edad' de la funcion 'saludar'
+
+
+
+
+
+// Ej de retornos                       // Return se utiliza para utiliar varias veces y con difrentes resultados el valor de la salida de una funcion
+
+function mutiplicar(num1, num2){
+    let resultado = num1 * num2;
+    return resultado;                   // Con return se guarda un valor pero no se muestra hasta que se invoque en otra variable, se 'devuelve'
+}
+
+let recibidor = mutiplicar(2,5);        // Se crea la variable 'recibidor' para invocar el valor de resultado
+
+console.log (recibidor);                //se imprime '10'
