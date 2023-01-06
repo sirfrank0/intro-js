@@ -1,7 +1,7 @@
 // VARIABLES
 
 
-let miVariable = 24;                     //Se asigna valor a let , let obliga a que si se usa dentro de una funcion el valor de esa varible solo va a servir dentro de esa funcion y no se mezcle con otros.
+//let miVariable = 24;                     //Se asigna valor a let , let obliga a que si se usa dentro de una funcion el valor de esa varible solo va a servir dentro de esa funcion y no se mezcle con otros.
    
 
 //console.log("mi edad es " + miVariable)         // muestra 24
@@ -14,13 +14,27 @@ miVariable = 12;                                    // Se asigna nuevo valor a l
 
 
 
-const miConstante = 3;                  // const varibale que no cambia su valor aun si se le asigna otro despues
+//const miConstante = 3;                  // const varibale que no cambia su valor aun si se le asigna otro despues
 
 //console.log("mi edad constante es " + miConstante)       // no cambia su valor , muestra 12
 
 
 //miConstante = 4;                                // Se asigna nuevo valor a const 
 //console.log("mi edad constante ahora es " + miConstante)            // no cambia su valor y da error
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -60,6 +74,20 @@ const miConstante = 3;                  // const varibale que no cambia su valor
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ///FUNCIONES                                            //Las funciones se pueden invocar desde cualquier lado del archivo, ni importa si esta arriba o abajo.
 
 // //Ej #1
@@ -89,11 +117,60 @@ const miConstante = 3;                  // const varibale que no cambia su valor
 
 // Ej de retornos                       // Return se utiliza para utiliar varias veces y con difrentes resultados el valor de la salida de una funcion
 
-function mutiplicar(num1, num2){
-    let resultado = num1 * num2;
-    return resultado;                   // Con return se guarda un valor pero no se muestra hasta que se invoque en otra variable, se 'devuelve'
+// function mutiplicar(num1, num2){
+//     let resultado = num1 * num2;
+//     return resultado;                   // Con return se guarda un valor pero no se muestra hasta que se invoque en otra variable, se 'devuelve'
+// }
+
+// let recibidor = mutiplicar(2,5);        // Se crea la variable 'recibidor' para invocar el valor de resultado
+
+// console.log (recibidor);                //se imprime '10'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ARREGGLOS o ARRAYS                   // Son como listas con valores adentro, por lo general se declaran con Const porque son inmutables
+
+
+//let miArreglo = ["Felipe", 'Duvan', 'Mono', 'David', 'Harry'];          //Pueden contener cualquier tipo de variable pero se recomienda que sean del mismo tipo
+
+//console.log(miArreglo)                  // Se imprime el arreglo con los 5 valores
+
+//for (let i =0; i < 5; i++){                         // Se crea un bucle para imprimir los valores del arreglo, estrcutura  (se define el contador; hasta cuando se desea contar, i++ sirve para sumar 1 al contador )
+
+    // let mostrar = miArreglo[0];             //Solo se mostrara el arreglo 0=Felipe (.. 1=Duvan, etc)
+    // console.log(mostrar)  
+
+
+
+    // console.log("Accediendo al indice: " + i);      // Se imprime este texto para verlo en cada valor impreso
+    // let mostrar = miArreglo[i];                         // Se coloca [i] para mostrar los valores del contador en el bucle, o sea los nombres
+    // console.log(mostrar)  
 }
 
-let recibidor = mutiplicar(2,5);        // Se crea la variable 'recibidor' para invocar el valor de resultado
 
-console.log (recibidor);                //se imprime '10'
+
+
+
+
+
+
+
+// OBJETOS
