@@ -163,7 +163,7 @@ miVariable = 12;                                    // Se asigna nuevo valor a l
     // console.log("Accediendo al indice: " + i);      // Se imprime este texto para verlo en cada valor impreso
     // let mostrar = miArreglo[i];                         // Se coloca [i] para mostrar los valores del contador en el bucle, o sea los nombres
     // console.log(mostrar)  
-}
+//}
 
 
 
@@ -173,4 +173,33 @@ miVariable = 12;                                    // Se asigna nuevo valor a l
 
 
 
-// OBJETOS
+// OBJETOS          // permiten crear algo con varias propiedades, ej Persona con cualidades. Se usan { } llaves y , comas
+
+let persona = {             //Cualidades persona
+    nombre: 'Frank',
+    edad: 23,
+    masculino: true,
+};
+
+
+persona.comidaFavorita = 'Lasagna';        // Se agrega una cualidad a un arreglo , con (.) + cualidad. con (.) se Accede a las propiedades del objeto 
+
+persona.nombre = 'Sebastian';           // Se modifica una cualidad existente a un arreglo  
+
+
+
+let persona2 = {            //Cualidades persona2
+    nombre: 'Julieth',
+    edad: 19,
+    masculino: false,
+};
+
+console.log(persona);       //Se imprimen los datos del objeto persona (cualidades)
+console.log(persona2);      //Se imprimen los datos del objeto persona2 (cualidades)
+
+
+let arregloDeObjetos = [persona,persona2];
+
+console.log(arregloDeObjetos);          // Ejemplo de arreglo con Objetos
+
+console.log(persona.comidaFavorita);   //Solo se imprime la cualidad 'comidaFavorita' del objeto 'persona'
