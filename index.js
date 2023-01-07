@@ -189,7 +189,7 @@ persona.nombre = 'Sebastian';           // Se modifica una cualidad existente a 
 
 
 let persona2 = {            //Cualidades persona2
-    nombre: 'Julieth',
+    nombre: 'Mi flaca hermosa',
     edad: 19,
     masculino: false,
 };
